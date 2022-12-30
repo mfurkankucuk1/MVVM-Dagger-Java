@@ -43,6 +43,9 @@ public class MainActivity extends AppCompatActivity {
         productsViewModel.getProducts();
     }
 
+    /** 
+    * Adapter settings and set recyclerView to adapter
+    **/
     private void setupAdapter() {
         productsAdapter = new ProductsAdapter();
         RecyclerView rvProducts = findViewById(R.id.rvProducts);
